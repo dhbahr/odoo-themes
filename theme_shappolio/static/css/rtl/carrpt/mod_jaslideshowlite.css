@@ -1,0 +1,185 @@
+
+
+.ja-ss-wrap {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+.ja-ss-items {
+  width: 100%;
+}
+.ja-ss-item {
+  display: block;
+  float: right;
+  margin: 0;
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  min-height: auto;
+  z-index: 1;
+}
+@media screen and (min-width: 768px) {
+  .ja-ss-item {
+    min-height: 260px;
+  }
+}
+.ja-ss-wrap .ja-ss-items {
+  position: relative;
+  min-height: auto;
+}
+.ja-ss-wrap .ja-ss-desc {
+  background: none;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.25);
+  font-weight: normal;
+  right: 20%;
+  top: 15%;
+  text-align: right;
+  position: absolute;
+  width: 60%;
+}
+@media screen and (min-width: 768px) {
+  .ja-ss-wrap .ja-ss-desc {
+    top: 30%;
+  }
+}
+@media (max-width: 480px) {
+  .ja-ss-wrap .ja-ss-desc {
+    top: 20%;
+    font-size: 16px;
+  }
+}
+.ja-ss-wrap .ja-ss-desc > h3 {
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 768px) {
+  .ja-ss-wrap .ja-ss-desc > h3 {
+    font-size: 54px;
+    line-height: 54px;
+  }
+}
+@media (max-width: 480px) {
+  .ja-ss-wrap .ja-ss-desc > h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+}
+.ja-ss-wrap .ja-ss-desc p {
+  display: none;
+  font-size: 14px;
+}
+@media screen and (min-width: 768px) {
+  .ja-ss-wrap .ja-ss-desc p {
+    display: block;
+  }
+}
+.ja-ss-wrap .ja-ss-thumbs-wrap {
+  background: none ;
+  bottom: 20px;
+  right: auto !important;
+  overflow: visible;
+  position: absolute;
+  left: 50% !important;
+  z-index: 2;
+}
+.ja-ss-wrap .ja-ss-thumbs {
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  width: auto;
+  white-space: nowrap;
+}
+.ja-ss-wrap .ja-ss-thumbs .ja-ss-thumb {
+  border: none;
+  border-radius: 0;
+  display: inline-block;
+  cursor: pointer;
+  line-height: 1;
+  margin: 0 5px 0 0;
+  position: relative;
+  overflow: visible;
+}
+.ja-ss-wrap .ja-ss-thumbs .ja-ss-thumb span {
+  background: url("../../../less/../images/thumb-bg.png") no-repeat center center;
+  display: block;
+  height: 12px;
+  width: 12px;
+}
+.ja-ss-wrap .ja-ss-thumbs .ja-ss-thumb img {
+  background: #ffffff;
+  display: block;
+  right: -30px;
+  max-width: none !important;
+  opacity: 0;
+  padding: 5px;
+  position: absolute;
+  top: -75px;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+}
+.ja-ss-wrap .ja-ss-thumbs .ja-ss-thumb:hover span:before {
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+  border-top: 5px solid #ffffff;
+  content: "";
+  height: 0;
+  margin-right: 0px;
+  position: absolute;
+  top: -5px;
+  width: 0;
+}
+.ja-ss-wrap .ja-ss-thumbs .ja-ss-thumb:hover img {
+  opacity: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+.ja-ss-wrap .ja-ss-thumbs .ja-ss-thumb.active span {
+  background-image: url("../../../less/../images/thumb-active-bg.png");
+}
+.ja-ss-wrap .ja-ss-thumbs .ja-ss-thumb.active {
+  border: none;
+}
+.ja-ss-wrap .ja-ss-btns {
+  position: static;
+}
+.ja-ss-wrap .ja-ss-btns > span {
+  display: none;
+}
+.ja-ss-wrap .ja-ss-btns .ja-ss-prev,
+.ja-ss-wrap .ja-ss-btns .ja-ss-next {
+  background: url("../../../less/../images/slide-button.png") no-repeat right top;
+  cursor: pointer;
+  display: block;
+  padding: 0;
+  position: absolute;
+  right: 5%;
+  top: 50%;
+  margin: -15px 0 0 0;
+  width: 30px;
+  height: 30px;
+  text-indent: -999em;
+  z-index: 10;
+}
+.ja-ss-wrap .ja-ss-btns .ja-ss-prev:hover,
+.ja-ss-wrap .ja-ss-btns .ja-ss-next:hover,
+.ja-ss-wrap .ja-ss-btns .ja-ss-prev:active,
+.ja-ss-wrap .ja-ss-btns .ja-ss-next:active,
+.ja-ss-wrap .ja-ss-btns .ja-ss-prev:focus,
+.ja-ss-wrap .ja-ss-btns .ja-ss-next:focus {
+  background-position: right bottom;
+}
+.ja-ss-wrap .ja-ss-btns .ja-ss-next {
+  background-position: left top;
+  right: auto;
+  left: 5%;
+}
+.ja-ss-wrap .ja-ss-btns .ja-ss-next:hover,
+.ja-ss-wrap .ja-ss-btns .ja-ss-next:active,
+.ja-ss-wrap .ja-ss-btns .ja-ss-next:focus {
+  background-position: left bottom;
+}

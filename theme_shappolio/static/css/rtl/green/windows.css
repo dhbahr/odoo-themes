@@ -1,0 +1,13 @@
+
+
+.com_content body,
+.com_mailto body {
+  padding-top: 0;
+}
+.com_content body .t3-mainbody,
+.com_mailto body .t3-mainbody {
+  padding-top: 20px;
+}
+.window-mainbody {
+  padding: 20px;
+}

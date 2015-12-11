@@ -1,0 +1,171 @@
+
+
+@media screen and (max-width: 768px) {
+  .ja-cp-wrap {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+}
+.ja-cp-main {
+  margin: 0;
+}
+.ja-cp-main .ja-cp-group .ja-cp-item {
+  margin-bottom: 15px;
+}
+.ja-cp-main .ja-cp-image {
+  padding: 0;
+}
+@media screen and (min-width: 768px) {
+  .ja-cp-main .ja-cp-image {
+    padding: 0 10px;
+  }
+}
+.ja-cp-main .ja-cp-image img {
+  border: none;
+  padding: 0;
+  width: 100%;
+  border-radius: 100%;
+}
+.ja-cp-main .item-inner {
+  border: solid 1px rgba(0, 0, 0, 0);
+  border-radius: 2px;
+}
+@media screen and (max-width: 768px) {
+  .ja-cp-main .item-inner {
+    padding: 20px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .ja-cp-main .item-inner {
+    padding: 20px 10px;
+  }
+}
+.ja-cp-main .item-inner:hover,
+.ja-cp-main .item-inner:focus,
+.ja-cp-main .item-inner:active {
+  border-color: #e5e5e5;
+}
+.ja-cp-main .item-inner > a:hover,
+.ja-cp-main .item-inner > a:focus,
+.ja-cp-main .item-inner > a:active {
+  text-decoration: none;
+  color: #22afff;
+}
+.ja-cp-main .ja-cp-title {
+  color: #111;
+  font-weight: bold;
+  font-family: 'Open Sans', Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-top: 15px;
+}
+.ja-cp-main .ja-cp-title:hover,
+.ja-cp-main .ja-cp-title:focus,
+.ja-cp-main .ja-cp-title:active {
+  color: #22afff;
+}
+.ja-cp-main .addthis_toolbox a {
+  color: #999999;
+  font-size: 20px;
+  margin: 0 5px;
+}
+.ja-cp-main .addthis_toolbox a:hover,
+.ja-cp-main .addthis_toolbox a:focus,
+.ja-cp-main .addthis_toolbox a:active {
+  color: #22afff;
+}
+.column-3 .ja-cp-main .ja-cp-group .ja-cp-item {
+  width: 100% !important;
+}
+@media screen and (min-width: 768px) {
+  .column-3 .ja-cp-main .ja-cp-group .ja-cp-item {
+    width: 33.33% !important;
+  }
+}
+.column-3 .ja-cp-main .ja-cp-group .ja-cp-item .ja-cp-title {
+  margin-top: 25px;
+}
+.column-6 .ja-cp-main .ja-cp-group .ja-cp-item {
+  width: 100% !important;
+  min-height: auto;
+}
+@media screen and (min-width: 768px) {
+  .column-6 .ja-cp-main .ja-cp-group .ja-cp-item {
+    width: 16.6667% !important;
+    min-height: 280px;
+  }
+}
+.column-6 .ja-cp-main .ja-cp-group .ja-cp-item .ja-cp-title {
+  margin-bottom: 5px;
+}
+.column-6 .ja-cp-main .ja-cp-group .ja-cp-item .ja-cp-image img {
+  border-radius: 100%;
+}
+.yoxview_ja_slideshow #yoxview .yoxview_top a {
+  border-radius: 0 !important;
+  border: none !important;
+}
+.yoxview_ja_slideshow #yoxview_infoPanel a.yoxviewInfoLink {
+  color: #ffffff !important;
+  background-color: #0077bb !important;
+  border-color: #00bff2 !important;
+}
+.yoxview_ja_slideshow #yoxview_infoPanel a.yoxviewInfoLink:hover,
+.yoxview_ja_slideshow #yoxview_infoPanel a.yoxviewInfoLink:focus,
+.yoxview_ja_slideshow #yoxview_infoPanel a.yoxviewInfoLink:active,
+.yoxview_ja_slideshow #yoxview_infoPanel a.yoxviewInfoLink.active,
+.open .dropdown-toggle.yoxview_ja_slideshow #yoxview_infoPanel a.yoxviewInfoLink {
+  color: #ffffff !important;
+  background-color: #005d92 !important;
+  border-color: #008fb5 !important;
+}
+.yoxview_ja_slideshow #yoxview_infoPanel a.yoxviewInfoLink:active,
+.yoxview_ja_slideshow #yoxview_infoPanel a.yoxviewInfoLink.active,
+.open .dropdown-toggle.yoxview_ja_slideshow #yoxview_infoPanel a.yoxviewInfoLink {
+  background-image: none !important;
+}
+.yoxview_ja_slideshow #yoxview_infoPanel a.yoxviewInfoLink.disabled,
+.yoxview_ja_slideshow #yoxview_infoPanel a.yoxviewInfoLink[disabled],
+fieldset[disabled] .yoxview_ja_slideshow #yoxview_infoPanel a.yoxviewInfoLink,
+.yoxview_ja_slideshow #yoxview_infoPanel a.yoxviewInfoLink.disabled:hover,
+.yoxview_ja_slideshow #yoxview_infoPanel a.yoxviewInfoLink[disabled]:hover,
+fieldset[disabled] .yoxview_ja_slideshow #yoxview_infoPanel a.yoxviewInfoLink:hover,
+.yoxview_ja_slideshow #yoxview_infoPanel a.yoxviewInfoLink.disabled:focus,
+.yoxview_ja_slideshow #yoxview_infoPanel a.yoxviewInfoLink[disabled]:focus,
+fieldset[disabled] .yoxview_ja_slideshow #yoxview_infoPanel a.yoxviewInfoLink:focus,
+.yoxview_ja_slideshow #yoxview_infoPanel a.yoxviewInfoLink.disabled:active,
+.yoxview_ja_slideshow #yoxview_infoPanel a.yoxviewInfoLink[disabled]:active,
+fieldset[disabled] .yoxview_ja_slideshow #yoxview_infoPanel a.yoxviewInfoLink:active,
+.yoxview_ja_slideshow #yoxview_infoPanel a.yoxviewInfoLink.disabled.active,
+.yoxview_ja_slideshow #yoxview_infoPanel a.yoxviewInfoLink[disabled].active,
+fieldset[disabled] .yoxview_ja_slideshow #yoxview_infoPanel a.yoxviewInfoLink.active {
+  background-color: #0077bb !important;
+  border-color: #00bff2 !important;
+}
+.yoxview_ja_slideshow #yoxview_infoPanel span#yoxview_count {
+  color: #222222;
+}
+.ja-cp-pagination .ja-cp-pagelist {
+  margin-bottom: 20px !important;
+}
+.ja-cp-pagination ul li {
+  border: none;
+  margin: 0px 3px;
+  padding: 0;
+}
+.ja-cp-pagination ul li span {
+  background: #ffffff;
+  border: solid 1px rgba(0, 0, 0, 0);
+  color: #888;
+  padding: 5px 10px;
+}
+.ja-cp-pagination ul li:hover span,
+.ja-cp-pagination ul li:focus span,
+.ja-cp-pagination ul li:active span {
+  color: #222222;
+}
+.ja-cp-pagination ul li.active span {
+  border-color: #22afff;
+  background: #22afff;
+  color: #ffffff;
+}

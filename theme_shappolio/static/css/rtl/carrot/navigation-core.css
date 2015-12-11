@@ -1,0 +1,134 @@
+
+
+.dropdown-menu > li > a {
+  padding: 5px 20px;
+}
+.dropdown-header {
+  padding: 3px 20px;
+  font-size: 14px;
+}
+.dropdown-header a {
+  color: #999999;
+}
+.nav > li > a {
+  border-radius: 0;
+}
+.nav > li > .separator {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+  line-height: 20px;
+}
+@media (min-width: 768px) {
+  .nav > li > .separator {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+}
+.nav .caret {
+  border-top-color: #e67e22;
+  border-bottom-color: #e67e22;
+}
+.nav a:hover .caret {
+  border-top-color: #bf6516;
+  border-bottom-color: #bf6516;
+}
+.navbar-toggle {
+  float: right;
+  margin-left: auto;
+  margin-right: 20px;
+}
+@media (min-width: 768px) {
+  .navbar-toggle {
+    display: none;
+  }
+}
+.navbar-nav {
+  margin: 7.5px -20px;
+}
+@media (max-width: 767px) {
+  
+}
+@media (min-width: 768px) {
+  .navbar-nav {
+    margin: 0;
+  }
+}
+.t3-navhelper {
+  background: #f5f5f5;
+  color: #555555;
+}
+.breadcrumb {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+.breadcrumb > li + li:before {
+  content: "/\00a0";
+}
+.breadcrumb > .active {
+  color: #999999;
+}
+.breadcrumb .divider {
+  display: none;
+}
+.pagination > li > a,
+.pagination > li > span {
+  border: none;
+  color: #888888;
+  font-weight: bold;
+  transition: 0.2s;
+}
+.pagination > li:first-child > a,
+.pagination > li:last-child > a,
+.pagination > li:first-child > span,
+.pagination > li:last-child > span {
+  border-radius: 0;
+}
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li > a:focus,
+.pagination > li > span:focus {
+  background: #e67e22;
+  color: #ffffff;
+}
+.pagination > .active > a,
+.pagination > .active > span {
+  background: #e67e22;
+  color: #ffffff;
+}
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+  background: #e67e22;
+  color: #ffffff;
+}
+.pagination > .disabled > span,
+.pagination > .disabled > span:hover,
+.pagination > .disabled > span:focus,
+.pagination > .disabled > a,
+.pagination > .disabled > a:hover,
+.pagination > .disabled > a:focus {
+  background: #f5f5f5;
+  color: #ccc;
+}
+.pagination {
+  display: block;
+}
+.pagination .pagination {
+  display: inline-block;
+}
+.counter {
+  float: left;
+  margin-top: 20px;
+  padding: 6px 12px;
+  background-color: #ffffff;
+  border: none;
+  border-radius: none;
+}
+.panel-heading > .dropdown .dropdown-toggle {
+  color: inherit;
+}
+.panel-title > a {
+  color: inherit;
+}

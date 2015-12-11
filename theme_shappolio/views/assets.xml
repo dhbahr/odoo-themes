@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<openerp>
+    <data>
+        <template id="shappolio_style" name="Shasti Appolio styles" inherit_id="website.assets_frontend">
+
+            <xpath expr="link[last()]" position="after">
+				<link href="http://fonts.googleapis.com/css?family=Open+Sans:300" 
+				      rel="stylesheet" type="text/css"/>
+				<link href="http://fonts.googleapis.com/css?family=Open+Sans:400" 
+				      rel="stylesheet" type="text/css"/>
+				<link href="http://fonts.googleapis.com/css?family=Open+Sans:600" 
+				      rel="stylesheet" type="text/css"/>
+				<link href="http://fonts.googleapis.com/css?family=Open+Sans:700" 
+				      rel="stylesheet" type="text/css"/>
+				<link href="http://fonts.googleapis.com/css?family=Open+Sans:800" 
+				      rel="stylesheet" type="text/css"/>
+				<link href="/theme_shappolio/static/css/error.css"
+                      rel="stylesheet" type="text/css"/>
+                <link href="/theme_shappolio/static/css/form.css"
+                      rel="stylesheet" type="text/css"/>
+                <link href="/theme_shappolio/static/css/frontend-edit.css"
+                      rel="stylesheet" type="text/css"/>
+                <link href="/theme_shappolio/static/css/home.css"
+                      rel="stylesheet" type="text/css"/>
+                <link href="/theme_shappolio/static/css/legacy-grid.css"
+                      rel="stylesheet" type="text/css"/>
+                <link href="/theme_shappolio/static/css/legacy-navigation.css"
+                      rel="stylesheet" type="text/css"/>
+                <link href="/theme_shappolio/static/css/megamenu.css"
+                      rel="stylesheet" type="text/css"/>
+                <link href="/theme_shappolio/static/css/mod_jacontentpopup.css"
+                      rel="stylesheet" type="text/css"/>
+                <link href="/theme_shappolio/static/css/mod_jaslideshowlite.css"
+                      rel="stylesheet" type="text/css"/>
+                <link href="/theme_shappolio/static/css/navigation-core.css"
+                      rel="stylesheet" type="text/css"/>
+                <link href="/theme_shappolio/static/css/off-canvas.css"
+                      rel="stylesheet" type="text/css"/>
+
+                <link href="/theme_shappolio/static/css/template.css"
+                      rel="stylesheet" type="text/css"/>
+                <link href="/theme_shappolio/static/css/typo.css"
+                      rel="stylesheet" type="text/css"/>
+                <link href="/theme_shappolio/static/css/typo-core.css"
+                      rel="stylesheet" type="text/css"/>
+                <link href="/theme_shappolio/static/css/windows.css"
+                      rel="stylesheet" type="text/css"/>
+                <link href="/theme_shappolio/static/js/google-code-prettify/prettify.css"
+                      rel="stylesheet" type="text/css"/>
+            </xpath>
+
+            <xpath expr="script[last()]" position="after">
+                <script type='text/javascript'
+                        src='/theme_shappolio/static/js/google-code-prettify/prettify.js'/>
+                <script type='text/javascript'
+                        src='/theme_shappolio/static/js/jquery.affixtopmenu.js'/>
+                <script type='text/javascript'
+                        src='/theme_shappolio/static/js/jquery.easing.1.3.js'/>
+                <script type='text/javascript'
+                        src='/theme_shappolio/static/js/jquery.inview.min.js'/>
+                <script type='text/javascript'
+                        src='/theme_shappolio/static/js/jquery.parallax-1.1.3.js'/>
+                <script type='text/javascript'
+                        src='/theme_shappolio/static/js/script.js'/>
+            </xpath>
+
+        </template>
+    </data>
+</openerp>
