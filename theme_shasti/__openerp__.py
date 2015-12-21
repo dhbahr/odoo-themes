@@ -1,6 +1,6 @@
 {
-    'name': 'Shasti Appolio',
-    'description': "A clone of Joomla's Appolio theme.",
+    'name': 'Shasti Official Theme',
+    'description': "Based on Joomla's Appolio theme.",
     'version': '1.0',
     'author': 'D.H. Bahr',
 

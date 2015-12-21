@@ -15,6 +15,7 @@
             </xpath>
             
             <xpath expr="//div[@id='wrapwrap']/header" position="replace">
+                <div class="oe_structure"/>
                 <header id="t3-header" class="t3-header">
                     <div class="clearfix">
                         <div class="pull-left">
