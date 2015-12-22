@@ -2,8 +2,8 @@
 <openerp>
     <data>
 
-        <template id="shappolio_layout" inherit_id="website.layout"
-                  name="Shasti Appolio layout">
+        <template id="shasti_layout" inherit_id="website.layout"
+                  name="Shasti layout">
 
             <xpath expr="//body" position="attributes">
                 <attribute name="onload">prettyPrint()</attribute>
@@ -15,7 +15,7 @@
             </xpath>
             
             <xpath expr="//div[@id='wrapwrap']/header" position="replace">
-                <div class="oe_structure"/>
+                <div t-if="homepage" class="oe_structure oe_empty"/>
                 <header id="t3-header" class="t3-header">
                     <div class="clearfix">
                         <div class="pull-left">
@@ -24,18 +24,12 @@
                                    t-field="res_company.name"/>
                             </div>
                         </div>
-<!--
-                        <button class="btn btn-primary off-canvas-toggle" 
-                                data-pos="right" data-nav="#t3-off-canvas" 
-                                type="button" data-effect="off-canvas-effect-4">
-                            <i class="fa fa-bars"></i>
-                        </button>
--->
+
                         <div class="t3-mainnav navbar navbar-default navbar-static-top">
                             <div class="container">
                                 <div class="navbar-header">
                                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-top-collapse">
-                                        <i class="fa fa-bars"></i>
+                                        <i class="fa fa-bars"/>
                                     </button>
                                 </div>
                                 <div class="collapse navbar-collapse navbar-top-collapse">
@@ -48,7 +42,7 @@
                                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                                                 <b>
                                                     <span t-esc="user_id.name"/>
-                                                    <span class="caret"></span>
+                                                    <span class="caret"/>
                                                 </b>
                                             </a>
                                             <ul class="dropdown-menu js_usermenu" role="menu">
@@ -76,7 +70,7 @@
             <xpath expr="//div[@id='wrapwrap']/main" position="after">
                 <div id="back-to-top" class="back-to-top active" style="right: 85.5px;">
                     <button class="btn btn-primary">
-                        <i class="fa fa-angle-up"></i>
+                        <i class="fa fa-angle-up"/>
                     </button>
                 </div>
             </xpath>
@@ -91,7 +85,7 @@
 
             <xpath expr="//div[@id='wrapwrap']/footer" position="inside">
                 <div class="container">
-                    <div class="mask"></div>
+                    <div class="mask"/>
                 </div>
             </xpath>
 

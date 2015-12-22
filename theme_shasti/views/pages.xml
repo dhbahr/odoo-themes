@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <openerp>
     <data>
+
+        <template id="website.homepage" name="Homepage" page="True" priority="30">
+            <t t-set="homepage" t-value="True" />
+            <t t-call="website.layout">
+                <div id="wrap" class="oe_structure oe_empty" />
+            </t>
+
+        </template>
+
     </data>
 </openerp>
