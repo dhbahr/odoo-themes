@@ -92,13 +92,13 @@
 	$(document).ready(function($){
 		$('video').updateSizeVideo('.t3-video');
 		if( !/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-			$('.s_big_picture img').each(function(){
-				imgsrc = $(this).attr('src');
-				$(this).closest('section.s_big_picture').css({
-					'background':'url('+imgsrc+') 50% 0 no-repeat fixed'	
-				}).parallax("50%", 0.1);
-				$(this).remove();	
-			});
+//			$('.s_big_picture img').each(function(){
+//				imgsrc = $(this).attr('src');
+//				$(this).closest('section.s_big_picture').css({
+//					'background':'url('+imgsrc+') 50% 0 no-repeat fixed'
+//				}).parallax("50%", 0.1);
+//				$(this).remove();
+//			});
 		}
 		//$('.s_big_picture').parallax("50%", 0.1);
 	 	//Check div message show
@@ -122,7 +122,7 @@
 		      } 
 			});		
 		};
-		$.each(['#onepage_1','#onepage_2','#onepage_3','#onepage_4','#onepage_5','#onepage_6','#onepage_7','#onepage_8','#about1','#leadership','#our_team','#explore_and_share_the_place_you_love','#page-187','#page-190','#page-196','#page-197','#page-212','#page-220','#page-229','#page-228'],function(i,element){
+		$.each(['.section.shasti'],function(i,element){
 			$(element).visibleElement();
 		});
 		

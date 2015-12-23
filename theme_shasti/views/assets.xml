@@ -4,49 +4,54 @@
         <template id="shasti_style" name="Shasti styles" inherit_id="website.assets_frontend">
 
             <xpath expr="link[last()]" position="after">
-				<link href="http://fonts.googleapis.com/css?family=Open+Sans:300" 
-				      rel="stylesheet" type="text/css"/>
-				<link href="http://fonts.googleapis.com/css?family=Open+Sans:400" 
-				      rel="stylesheet" type="text/css"/>
-				<link href="http://fonts.googleapis.com/css?family=Open+Sans:600" 
-				      rel="stylesheet" type="text/css"/>
-				<link href="http://fonts.googleapis.com/css?family=Open+Sans:700" 
-				      rel="stylesheet" type="text/css"/>
-				<link href="http://fonts.googleapis.com/css?family=Open+Sans:800" 
-				      rel="stylesheet" type="text/css"/>
-				<link href="/theme_shasti/static/css/error.css"
-                      rel="stylesheet" type="text/css"/>
-                <link href="/theme_shasti/static/css/form.css"
-                      rel="stylesheet" type="text/css"/>
-                <link href="/theme_shasti/static/css/frontend-edit.css"
-                      rel="stylesheet" type="text/css"/>
-                <link href="/theme_shasti/static/css/home.css"
-                      rel="stylesheet" type="text/css"/>
+				<!--<link href="http://fonts.googleapis.com/css?family=Open+Sans:300" -->
+				      <!--rel="stylesheet" type="text/css"/>-->
+				<!--<link href="http://fonts.googleapis.com/css?family=Open+Sans:400" -->
+				      <!--rel="stylesheet" type="text/css"/>-->
+				<!--<link href="http://fonts.googleapis.com/css?family=Open+Sans:600" -->
+				      <!--rel="stylesheet" type="text/css"/>-->
+				<!--<link href="http://fonts.googleapis.com/css?family=Open+Sans:700" -->
+				      <!--rel="stylesheet" type="text/css"/>-->
+				<!--<link href="http://fonts.googleapis.com/css?family=Open+Sans:800" -->
+				      <!--rel="stylesheet" type="text/css"/>-->
+                <!--<link href="/theme_shasti/static/css/bootstrap.css"-->
+                      <!--rel="stylesheet" type="text/css"/>-->
+				<!--<link href="/theme_shasti/static/css/error.css"-->
+                      <!--rel="stylesheet" type="text/css"/>-->
+                <!--<link href="/theme_shasti/static/css/form.css"-->
+                      <!--rel="stylesheet" type="text/css"/>-->
+                <!--<link href="/theme_shasti/static/css/frontend-edit.css"-->
+                      <!--rel="stylesheet" type="text/css"/>-->
+                <!--<link href="/theme_shasti/static/css/home.css"-->
+                      <!--rel="stylesheet" type="text/css"/>-->
                 <link href="/theme_shasti/static/css/legacy-grid.css"
                       rel="stylesheet" type="text/css"/>
-                <link href="/theme_shasti/static/css/legacy-navigation.css"
-                      rel="stylesheet" type="text/css"/>
+                <!--<link href="/theme_shasti/static/css/legacy-navigation.css"-->
+                      <!--rel="stylesheet" type="text/css"/>-->
                 <link href="/theme_shasti/static/css/megamenu.css"
                       rel="stylesheet" type="text/css"/>
-                <link href="/theme_shasti/static/css/mod_jacontentpopup.css"
-                      rel="stylesheet" type="text/css"/>
-                <link href="/theme_shasti/static/css/mod_jaslideshowlite.css"
-                      rel="stylesheet" type="text/css"/>
-                <link href="/theme_shasti/static/css/navigation-core.css"
-                      rel="stylesheet" type="text/css"/>
+                <!--<link href="/theme_shasti/static/css/mod_jacontentpopup.css"-->
+                      <!--rel="stylesheet" type="text/css"/>-->
+                <!--<link href="/theme_shasti/static/css/mod_jaslideshowlite.css"-->
+                      <!--rel="stylesheet" type="text/css"/>-->
+                <!--<link href="/theme_shasti/static/css/navigation-core.css"-->
+                      <!--rel="stylesheet" type="text/css"/>-->
                 <link href="/theme_shasti/static/css/off-canvas.css"
                       rel="stylesheet" type="text/css"/>
-
-                <link href="/theme_shasti/static/css/template.css"
-                      rel="stylesheet" type="text/css"/>
-                <link href="/theme_shasti/static/css/typo.css"
-                      rel="stylesheet" type="text/css"/>
-                <link href="/theme_shasti/static/css/typo-core.css"
-                      rel="stylesheet" type="text/css"/>
-                <link href="/theme_shasti/static/css/windows.css"
-                      rel="stylesheet" type="text/css"/>
+                <!--<link href="/theme_shasti/static/css/template.css"-->
+                      <!--rel="stylesheet" type="text/css"/>-->
+                <!--<link href="/theme_shasti/static/css/typo.css"-->
+                      <!--rel="stylesheet" type="text/css"/>-->
+                <!--<link href="/theme_shasti/static/css/typo-core.css"-->
+                      <!--rel="stylesheet" type="text/css"/>-->
+                <!--<link href="/theme_shasti/static/css/windows.css"-->
+                      <!--rel="stylesheet" type="text/css"/>-->
                 <link href="/theme_shasti/static/js/google-code-prettify/prettify.css"
                       rel="stylesheet" type="text/css"/>
+
+                <link href="/theme_shasti/static/css/main.css"
+                      rel="stylesheet" type="text/css"/>
+
             </xpath>
 
             <xpath expr="script[last()]" position="after">

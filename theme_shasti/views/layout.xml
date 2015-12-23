@@ -8,6 +8,7 @@
             <xpath expr="//body" position="attributes">
                 <attribute name="onload">prettyPrint()</attribute>
                 <attribute name="class">affixmenu-show</attribute>
+                <attribute name="style">font-family: "Times New Roman", Georgia, Serif!important;</attribute>
             </xpath>
 
             <xpath expr="//div[@id='wrapwrap']" position="attributes">
@@ -67,7 +68,8 @@
                 </header>
             </xpath>
 
-            <xpath expr="//div[@id='wrapwrap']/main" position="after">
+            <xpath expr="//div[@id='wrapwrap']/main" position="replace">
+                <t t-raw="0"/>
                 <div id="back-to-top" class="back-to-top active" style="right: 85.5px;">
                     <button class="btn btn-primary">
                         <i class="fa fa-angle-up"/>
@@ -81,6 +83,7 @@
             <xpath expr="//div[@id='wrapwrap']/footer" position="attributes">
                 <attribute name="id">t3-footer</attribute>
                 <attribute name="class">wrap t3-footer</attribute>
+                <attribute name="style">display: block!important</attribute>
             </xpath>
 
             <xpath expr="//div[@id='wrapwrap']/footer" position="inside">

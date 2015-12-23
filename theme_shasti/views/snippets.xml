@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<openerp>
+    <data>
+
+        <template id="snippet_center" name="Section Center">
+            <section class="section shasti module section-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="custom section-center">
+                            <div class="clearfix">
+                                <div class="col-md-8 col-sm-12 last-content">
+                                    <h1 class="section-title">Section Title</h1>
+                                    <span class="section-subtitle">Nulla sed elit sit amet nunc accumsan aliquam. Mauris id suscipit nunc. Donec dissim pharetra nunc a semper sagittis. Ut congue neque sit amet pharetra gravida. Morbi euismod feugiat con sectetur adipiscing lorem non.</span>
+                                    <img src="/theme_shasti/static/images/t3-bg.png" alt="Sample image"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+
+        <template id="snippet_image_right" name="Section Image Right">
+            <section class="section shasti module section-image">
+                <div class="container">
+                    <div class="row">
+                        <div class="custom section-image">
+                            <div class="clearfix">
+                                <div class="col-md-6 col-sm-6 col-xs-12 content-left">
+                                    <h1 class="section-title">Section Title</h1>
+                                    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque luctus ipsum nenatis mi auctor ullamcorper. Morbi euismod feugiat lorem non. Nam pharetra nunc a semper sagittis. Nulla sed elit sit amet nunc ccumsan aliquam. Mauris id suscipit nunc.</span>
+                                </div>
+                                <div class="col-md-6 col-sm-6 col-xs-12 img-right">
+                                    <img src="/theme_shasti/static/images/t3-banner.png" alt="Sample image"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+
+        <template id="snippet_image_left" name="Section Image Left">
+            <section class="section shasti module section-image">
+                <div class="container">
+                    <div class="row">
+                        <div class="custom section-image">
+                            <div class="clearfix">
+                                <div class="col-md-6 col-sm-6 col-xs-12 img-left">
+                                    <img src="/theme_shasti/static/images/t3-banner.png" alt="Sample image"/>
+                                </div>
+                                <div class="col-md-6 col-sm-6 col-xs-12 pull-right">
+                                    <h1 class="section-title">Section Title</h1>
+                                    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque luctus ipsum nenatis mi auctor ullamcorper. Morbi euismod feugiat lorem non. Nam pharetra nunc a semper sagittis. Nulla sed elit sit amet nunc ccumsan aliquam. Mauris id suscipit nunc.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+
+        <template id="place_into_bar" inherit_id="website.snippets" name="Place into bar">
+            <xpath expr="//div[@id='snippet_structure']" position="inside">
+                <t t-snippet="theme_shasti.snippet_center"
+                   t-thumbnail="/website/static/src/img/blocks/block_text_block.png"/>
+                <t t-snippet="theme_shasti.snippet_image_left"
+                   t-thumbnail="/website/static/src/img/blocks/block_image_text.png"/>
+                <t t-snippet="theme_shasti.snippet_image_right"
+                   t-thumbnail="/website/static/src/img/blocks/block_text_image.png"/>
+            </xpath>
+        </template>
+
+    </data>
+</openerp>
