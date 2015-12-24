@@ -60,9 +60,51 @@
             </section>
         </template>
 
+        <template id="snippet_center_bottom" name="Section Center with bottom">
+            <section class="section shasti module section-center">
+                <div class="row">
+                    <div class="custom section-center">
+                        <div class="clearfix">
+                            <div class="col-md-5 col-sm-12 last-content">
+                                <h1 class="section-title">Section Title</h1>
+                                <span class="section-subtitle">Nulla sed
+                                    elit sit amet nunc accumsan aliquam.
+                                    Mauris id suscipit nunc. Donec dissim
+                                    pharetra nunc a semper sagittis. Ut
+                                    congue neque sit amet pharetra gravida.
+                                    Morbi euismod feugiat con sectetur
+                                    adipiscing lorem non.
+                                </span>
+                            </div>
+                            <div class="main-col">
+                                <div class="shadow"> </div>
+                                <div class="background">
+
+                                    <div class="col col1 col-md-1 col-sm-1 col-xs-1 "> </div>
+                                    <div class="col col2 col-md-1 col-sm-1 col-xs-1 "> </div>
+                                    <div class="col col3 col-md-1 col-sm-1 col-xs-1 "> </div>
+                                    <div class="col col4 col-md-1 col-sm-1 col-xs-1 "> </div>
+                                    <div class="col col5 col-md-1 col-sm-1 col-xs-1 "> </div>
+                                    <div class="col col6 col-md-1 col-sm-1 col-xs-1 "> </div>
+                                    <div class="col col7 col-md-1 col-sm-1 col-xs-1 "> </div>
+                                    <div class="col col8 col-md-1 col-sm-1 col-xs-1 "> </div>
+                                    <div class="col col9 col-md-1 col-sm-1 col-xs-1 "> </div>
+                                    <div class="col col10 col-md-1 col-sm-1 col-xs-1 "> </div>
+                                    <div class="col col11 col-md-1 col-sm-1 col-xs-1 "> </div>
+                                    <div class="col col12 col-md-1 col-sm-1 col-xs-1 "> </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+
         <template id="place_into_bar" inherit_id="website.snippets" name="Place into bar">
             <xpath expr="//div[@id='snippet_structure']" position="inside">
                 <t t-snippet="theme_shasti.snippet_center"
+                   t-thumbnail="/website/static/src/img/blocks/block_text_block.png"/>
+                <t t-snippet="theme_shasti.snippet_center_bottom"
                    t-thumbnail="/website/static/src/img/blocks/block_text_block.png"/>
                 <t t-snippet="theme_shasti.snippet_image_left"
                    t-thumbnail="/website/static/src/img/blocks/block_image_text.png"/>
