@@ -113,8 +113,8 @@
 		//Add affix header
 		$('#t3-header').affixmenu();
 		//Add Inview
-		$.fn.visibleElement = function (options){		
-			$(this).bind('inview', function(event, visible,visiblePartX,visiblePartY){			
+		$.fn.visibleElement = function (options){
+			$(this).bind('inview', function(event, visible,visiblePartX,visiblePartY){
 		      if (visible) {
 		    	  if(visiblePartY == 'bottom' || visiblePartY=='both'){
 		    		  $(this).addClass('inview');
@@ -150,6 +150,10 @@
 				});
 
 				return false;
+			});
+
+			$('section.section.shasti.module.inview').each(function(){
+			    $(this).removeClass('inview');
 			});
 		})();
 	});
