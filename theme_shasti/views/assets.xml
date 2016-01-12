@@ -14,8 +14,8 @@
 				      <!--rel="stylesheet" type="text/css"/>-->
 				<!--<link href="http://fonts.googleapis.com/css?family=Open+Sans:800" -->
 				      <!--rel="stylesheet" type="text/css"/>-->
-                <!--<link href="/theme_shasti/static/css/bootstrap.css"-->
-                      <!--rel="stylesheet" type="text/css"/>-->
+                <link href="/theme_shasti/static/css/bootstrap.css"
+                      rel="stylesheet" type="text/css"/>
 				<!--<link href="/theme_shasti/static/css/error.css"-->
                       <!--rel="stylesheet" type="text/css"/>-->
                 <!--<link href="/theme_shasti/static/css/form.css"-->
