@@ -6265,7 +6265,7 @@ td.visible-lg {
   }
 }
 .hidden-xs {
-  display: block !important;
+  display: block;
 }
 table.hidden-xs {
   display: table;
